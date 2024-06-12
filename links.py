@@ -60,4 +60,5 @@ def extract_specific_content(url):
         author_element=soup.find("h5",class_='text-capitalize')
         publication_date_element=soup.find("div",class_='updated-time')
         content_container=soup.find("div",class_='subscribe-wrapperx')
-        
+#assignment on difference between raise_for_status() and status_code
+#
