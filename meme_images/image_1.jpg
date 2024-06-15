@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <h1>A valid 'secret' is required.</h1>
+        <h3>403</h3>
+        <li><b>Unknown</b>: <ul></ul></li>        <h3><a href="/65535/53791274395_79f473cf38bird.jpg?_accept=application/json">JSON</a> | <a href="/65535/53791274395_79f473cf38bird.jpg?_accept=application/json">PHP</a> | <a href="/65535/53791274395_79f473cf38bird.jpg?_accept=application/json">MsgPack</a></h3>        <pre>{
+    "code": 403,
+    "message": "A valid 'secret' is required."
+}</pre>    </body>
+</html>

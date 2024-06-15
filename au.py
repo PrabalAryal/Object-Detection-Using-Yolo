@@ -11,7 +11,7 @@ def search_filter(query, api_key, num_images=10):
         "method": "flickr.photos.search",  # api method to search photos
         "api_key": api_key,  # api key for authentication
         "text": query,  # search query
-        "tags": "car",  # search result by relevance
+        "tags": "bird",  # search result by relevance
         "per_page": num_images,  # number of results for pages
         "format": "json",  # format of the response per page
         "nojsoncallback": 1,  # response in json format
@@ -62,14 +62,14 @@ def download_image(photos_list, directory):
 # define the main function
 def main():
     # search query for flickr
-    query = "car"
+    query = "bird"
     # api key for flickr
     api_key = "2c091cbda37bd0c4f9e1ddc42bedf1c1"
     # number of images to download
     num_images = 10
     # search for photos on flickr
     photo_list = search_filter(query, api_key, num_images)
-    download_image(photo_list, "car_images")
+    download_image(photo_list, "bird_images")
 
 
 # run the main function if the script is executed directly
