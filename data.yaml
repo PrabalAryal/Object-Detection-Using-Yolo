@@ -1,0 +1,17 @@
+train: data_images/train
+val: data_images/test
+nc: 11
+names:
+  [
+    "toy",
+    "butterfly",
+    "cup",
+    "flower",
+    "helicopter",
+    "shoe",
+    "dog",
+    "cat",
+    "car",
+    "chair",
+    "bird",
+  ]
